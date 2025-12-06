@@ -37,7 +37,8 @@ DEFAULT_SAFETY_SETTINGS = [
     {"category": "HARM_CATEGORY_IMAGE_HARASSMENT", "threshold": "BLOCK_NONE"},
     {"category": "HARM_CATEGORY_IMAGE_HATE", "threshold": "BLOCK_NONE"},
     {"category": "HARM_CATEGORY_IMAGE_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-    {"category": "HARM_CATEGORY_UNSPECIFIED", "threshold": "BLOCK_NONE"}
+    {"category": "HARM_CATEGORY_UNSPECIFIED", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_JAILBREAK", "threshold": "BLOCK_NONE"}
 ]
 
 # Base Models (without search variants)
@@ -147,7 +148,7 @@ BASE_MODELS = [
         "topK": 64
     },
     {
-        "name": "models/gemini-3-pro-preview-11-2025",
+        "name": "models/gemini-3-pro-preview",
         "version": "001",
         "displayName": "Gemini 3.0 Pro Preview 11-2025",
         "description": "Preview version of Gemini 3.0 Pro from November 2025",
